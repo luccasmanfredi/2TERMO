@@ -4,7 +4,7 @@ let total = 0;
 let preco = -1;
 
 while (preco !==0) {
-    preco = entrada.questionFloat("Preco: R$ ");
+    preco = readline.questionFloat("Preco: R$ ");
 
     if(preco !==0) {
         total += preco;
