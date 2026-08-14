@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/luccasmanfredi/2TERMO/issues"
   },
-  "homepage": "https://github.com/luccasmanfredi/2TERMO#readme"
+  "homepage": "https://github.com/luccasmanfredi/2TERMO#readme",
+  "devDependencies": {}
 }
