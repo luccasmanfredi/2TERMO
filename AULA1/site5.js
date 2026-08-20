@@ -9,4 +9,4 @@ const altura = entrada.questionInt ("Qual a sua altura");
 const total = peso / altura * altura ;
 
 console.log ("\n --- IMC ---");
-console.log (´Produto {total})
+console.log (`Produto {total}`)
