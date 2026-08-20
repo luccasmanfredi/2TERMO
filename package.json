@@ -1,25 +1,5 @@
 {
-  "name": "2termo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "dependencies": {
     "readline-sync": "^1.4.10"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luccasmanfredi/2TERMO.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/luccasmanfredi/2TERMO/issues"
-  },
-  "homepage": "https://github.com/luccasmanfredi/2TERMO#readme",
-  "devDependencies": {}
+  }
 }

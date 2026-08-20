@@ -1,8 +1,8 @@
 {
-  "name": "backend",
+  "name": "beckend1_aula_autonoma",
   "version": "1.0.0",
   "description": "",
-  "main": "lacos.js",
+  "main": "aula1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,8 +1,8 @@
 {
-  "name": "backend",
+  "name": "lacos",
   "version": "1.0.0",
   "description": "",
-  "main": "lacos.js",
+  "main": "ex1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +12,6 @@
   "type": "commonjs",
   "dependencies": {
     "readline-sync": "^1.4.10"
-  }
+  },
+  "devDependencies": {}
 }
