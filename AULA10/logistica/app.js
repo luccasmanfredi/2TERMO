@@ -20,3 +20,4 @@ Total: R$ ${total.toFixed(2)}
 Prazo de entrega: ${prazo}
 ===================================`);
 
+
