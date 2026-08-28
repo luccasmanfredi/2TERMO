@@ -1,103 +1,115 @@
-# PBE1 - Programação Backend 1
+# 👋 Olá, eu sou Luccas Manfredi!
 
-## 📋 Descrição do Projeto
+💻 Desenvolvedor Backend em formação  
+🎓 Estudante SENAI  
+🇧🇷 Brasil
 
-Este repositório contém exercícios e atividades da disciplina de **Programação Backend 1** (PBE1), focando no aprendizado de conceitos fundamentais de JavaScript como:
-
-- **Variáveis e Tipos de Dados**: declaração de variáveis com `const` e `let`, diferentes tipos de dados
-- **Estruturas de Controle**: condicionais (`if/else`), loops (`for`, `while`)
-- **Arrays**: manipulação e iteração sobre arrays
-- **Entrada/Saída**: interação com usuário através de terminal
-- **Lógica de Programação**: implementação de algoritmos e resolução de problemas
-
-## 📁 Estrutura do Projeto
-
-```
-PBE1 - Manfredi/
-├── BACKEND/
-│   ├── lacos/              # Exercícios com loops (for, while)
-│   │   ├── array.js        # Manipulação básica de arrays
-│   │   ├── array2.js       # Sistema de controle de qualidade com arrays
-│   │   └── ex1.js          # Exemplo de loop while para acumulador
-│   └── package.json
-├── backend1_aula_autonoma/ # Atividades autônomas
-│   ├── aula1.js            # Primeiros passos em JavaScript
-│   ├── aula2.js            # Declaração de variáveis
-│   ├── aula3.js            # (Atividades da aula 3)
-│   ├── aula4.js            # (Atividades da aula 4)
-│   ├── atividade_final.js  # Projeto final: Relatório de aluno
-│   └── package.json
-└── package.json            # Dependências do projeto
-```
-
-## 🛠️ Tecnologias Utilizadas
-
-- **Linguagem**: JavaScript (ES6+)
-- **Runtime**: Node.js
-- **Bibliotecas**:
-  - `readline-sync` ^1.4.10 - Para capturar entrada do usuário via terminal
-
-## 🚀 Como Executar
-
-### Pré-requisitos
-- Node.js instalado (versão 12+)
-
-### Instalação de Dependências
-
-```bash
-# Na raiz do projeto
-npm install
-
-# Ou no diretório BACKEND
-cd BACKEND
-npm install
-
-# Ou no diretório backend1_aula_autonoma
-cd backend1_aula_autonoma
-npm install
-```
-
-### Executando os Exemplos
-
-```bash
-# Exemplo de array básico
-node BACKEND/lacos/array.js
-
-# Sistema de pesagem (array2.js)
-node BACKEND/lacos/array2.js
-
-# Exemplo de loop while
-node BACKEND/lacos/ex1.js
-
-# Atividades autônomas
-node backend1_aula_autonoma/aula1.js
-node backend1_aula_autonoma/atividade_final.js
-```
-
-## 📝 Exemplos de Conteúdo
-
-### Arrays
-- Declaração e acesso a elementos de arrays
-- Método `push()` para adicionar elementos
-- Método `join()` para concatenar elementos
-
-### Loops
-- **For**: iteração com número definido de repetições
-- **While**: iteração com condição booleana
-
-### Entrada/Saída
-- Captura de dados via `readline-sync`
-- Leitura de números inteiros e decimais
-- Validação e processamento de dados
-
-## 👤 Autor
-
-**Luccas Manfredi**
-
-## 📄 Licença
-
-ISC
+Atualmente estou estudando desenvolvimento de software, com foco em
+programação backend, desenvolvimento web e construção de aplicações.
 
 ---
 
-> Este projeto faz parte da disciplina PBE1 (Programação Backend 1) do 2º Termo
+## 🚀 Sobre mim
+
+Sou estudante de desenvolvimento de software e estou construindo
+minha experiência através de projetos práticos e atividades de programação.
+
+Tenho interesse principalmente em:
+
+- 🔧 Desenvolvimento Backend
+- 🌐 Desenvolvimento Web
+- 🐍 Python
+- ⚡ JavaScript
+- 🔌 IoT e ESP32
+- 🔀 Git e GitHub
+- 🗄️ Banco de dados e APIs
+
+Meu objetivo é continuar evoluindo e transformar meus conhecimentos
+em projetos cada vez mais completos e profissionais.
+
+---
+
+## 🛠️ Tecnologias
+
+### 💻 Linguagens
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### 🔧 Ferramentas
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+---
+
+## 📚 Atualmente estudando
+
+- 🐍 Python
+- ⚡ JavaScript
+- 🔙 Desenvolvimento Backend
+- 🌐 APIs
+- 🗄️ Banco de dados
+- 🔀 Git e GitHub
+- 🔌 ESP32 e IoT
+- 🧠 Lógica de programação
+
+---
+
+## 🚀 Projetos
+
+### 🅿️ Cancela Shopping
+
+Sistema desenvolvido em Python para simular o funcionamento
+de um sistema de estacionamento.
+
+🔗 [Ver projeto](https://github.com/luccasmanfredi/Cancela_Shopping)
+
+---
+
+### 🚗 Veloria Hyperlux
+
+Projeto de desenvolvimento web voltado para o segmento automotivo,
+com foco em interface, apresentação visual e experiência do usuário.
+
+🔗 [Ver projeto](https://github.com/luccasmanfredi/veloria-hyperlux)
+
+---
+
+### 🛡️ Site Segurança
+
+Projeto web desenvolvido durante meus estudos, utilizando tecnologias
+de desenvolvimento front-end.
+
+🔗 [Ver projeto](https://github.com/luccasmanfredi/Site_Seguran-a)
+
+---
+
+### 🚘 Veloria
+
+Projeto de desenvolvimento web relacionado ao segmento automotivo,
+utilizando tecnologias front-end.
+
+🔗 [Ver projeto](https://github.com/luccasmanfredi/veloria)
+
+---
+
+## 🎯 Objetivos
+
+Atualmente meu foco é:
+
+```text
+Aprender
+   ↓
+Praticar
+   ↓
+Criar projetos
+   ↓
+Melhorar meus códigos
+   ↓
+Construir experiência
+   ↓
+Me tornar um desenvolvedor profissional
