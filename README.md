@@ -196,7 +196,6 @@ Nos estudos com ESP32, venho trabalhando com conceitos relacionados à integraç
 
 ### Conceitos explorados
 
-```text
 ESP32
   │
   ├── Sensores
@@ -245,15 +244,9 @@ Construir uma carreira sólida em tecnologia
 │                                                      │
 └──────────────────────────────────────────────────────┘
 
-<div align="center">
+
 🚀 APRENDER • PRATICAR • CONTRIBUIR • EVOLUIR
-<br>
 
 Obrigado por visitar meu perfil!
-
-<br>
-
 🇧🇷 Luccas Manfredi
-
 💻 Desenvolvedor de Software em Formação
-</div> ```
