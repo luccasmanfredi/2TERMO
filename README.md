@@ -1,115 +1,109 @@
-# 👋 Olá, eu sou Luccas Manfredi!
+<div align="center">
 
-💻 Desenvolvedor Backend em formação  
-🎓 Estudante SENAI  
-🇧🇷 Brasil
+# 👨‍💻 LUCCAS MANFREDI
 
-Atualmente estou estudando desenvolvimento de software, com foco em
-programação backend, desenvolvimento web e construção de aplicações.
+### Software Developer in Progress
+
+💻 **Back-end • Web Development • Databases • IoT**
+
+⚡ *Código • Aprendizado • Evolução* ⚡
+
+[![GitHub](https://img.shields.io/badge/GitHub-Luccas%20Manfredi-181717?style=for-the-badge&logo=github)](https://github.com/luccasmanfredi)
+[![SENAI](https://img.shields.io/badge/SENAI-Estudante-005CA9?style=for-the-badge)](https://www.senai.br/)
+[![Brazil](https://img.shields.io/badge/Brasil-🇧🇷-009739?style=for-the-badge)](#)
+
+</div>
 
 ---
 
-## 🚀 Sobre mim
+## 🧑‍💻 Sobre mim
 
-Sou estudante de desenvolvimento de software e estou construindo
-minha experiência através de projetos práticos e atividades de programação.
+Olá! Eu sou **Luccas Manfredi**, estudante de desenvolvimento de software no **SENAI**.
 
-Tenho interesse principalmente em:
+Estou construindo minha experiência através de **projetos práticos, exercícios de programação e desenvolvimento de aplicações**, buscando transformar conhecimento em soluções cada vez mais completas.
 
-- 🔧 Desenvolvimento Backend
-- 🌐 Desenvolvimento Web
-- 🐍 Python
-- ⚡ JavaScript
+Atualmente, meus principais focos são:
+
+- 🔧 Desenvolvimento **Back-end**
+- 🌐 Desenvolvimento **Web**
+- 🐍 Python e JavaScript
+- 🗄️ Banco de Dados
 - 🔌 IoT e ESP32
-- 🔀 Git e GitHub
-- 🗄️ Banco de dados e APIs
-
-Meu objetivo é continuar evoluindo e transformar meus conhecimentos
-em projetos cada vez mais completos e profissionais.
+- 🔗 APIs e integração de sistemas
+- 🧠 Lógica de Programação
+- 🛠️ Git, GitHub e VS Code
 
 ---
 
-## 🛠️ Tecnologias
+## ⚡ Tech Stack
 
-### 💻 Linguagens
+### 💻 Linguagens & Desenvolvimento
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<p align="left">
 
-### 🔧 Ferramentas
+<img src="https://skillicons.dev/icons?i=python,js,nodejs,html,css" />
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+</p>
 
----
+### 🔌 IoT & Hardware
 
-## 📚 Atualmente estudando
+<p align="left">
 
-- 🐍 Python
-- ⚡ JavaScript
-- 🔙 Desenvolvimento Backend
-- 🌐 APIs
-- 🗄️ Banco de dados
-- 🔀 Git e GitHub
-- 🔌 ESP32 e IoT
-- 🧠 Lógica de programação
+<img src="https://skillicons.dev/icons?i=arduino" />
 
----
+</p>
 
-## 🚀 Projetos
+**Experiência com:**
 
-### 🅿️ Cancela Shopping
+- ESP32
+- Sistemas embarcados
+- Sensores
+- Automação
+- MicroPython
+- Arduino
 
-Sistema desenvolvido em Python para simular o funcionamento
-de um sistema de estacionamento.
+### 🗄️ Dados & Ferramentas
 
-🔗 [Ver projeto](https://github.com/luccasmanfredi/Cancela_Shopping)
+<p align="left">
+
+<img src="https://skillicons.dev/icons?i=mysql,git,github,vscode" />
+
+</p>
 
 ---
 
-### 🚗 Veloria Hyperlux
+## 🚀 Projetos em Destaque
 
-Projeto de desenvolvimento web voltado para o segmento automotivo,
-com foco em interface, apresentação visual e experiência do usuário.
-
-🔗 [Ver projeto](https://github.com/luccasmanfredi/veloria-hyperlux)
-
----
-
-### 🛡️ Site Segurança
-
-Projeto web desenvolvido durante meus estudos, utilizando tecnologias
-de desenvolvimento front-end.
-
-🔗 [Ver projeto](https://github.com/luccasmanfredi/Site_Seguran-a)
+| Projeto | Descrição | Tecnologia |
+|---|---|---|
+| 🅿️ **Cancela Shopping** | Sistema desenvolvido para simular o funcionamento de um estacionamento. | Python |
+| 🚗 **Veloria Hyperlux** | Projeto web voltado ao segmento automotivo, com foco em interface, experiência e apresentação visual. | HTML • CSS • JavaScript |
+| 🛡️ **Site Segurança** | Aplicação web desenvolvida durante os estudos de desenvolvimento front-end. | HTML • CSS • JavaScript |
+| 🚘 **Veloria** | Interface e apresentação web para o segmento automotivo. | Web Development |
 
 ---
 
-### 🚘 Veloria
-
-Projeto de desenvolvimento web relacionado ao segmento automotivo,
-utilizando tecnologias front-end.
-
-🔗 [Ver projeto](https://github.com/luccasmanfredi/veloria)
-
----
-
-## 🎯 Objetivos
-
-Atualmente meu foco é:
+## 🧠 Conceitos que estou desenvolvendo
 
 ```text
-Aprender
-   ↓
-Praticar
-   ↓
-Criar projetos
-   ↓
-Melhorar meus códigos
-   ↓
-Construir experiência
-   ↓
-Me tornar um desenvolvedor profissional
+┌──────────────────────────────────────────────┐
+│              DEVELOPMENT PATH                │
+├──────────────────────────────────────────────┤
+│                                              │
+│  🧠 Lógica de Programação                    │
+│          ↓                                   │
+│  🐍 Python / JavaScript                      │
+│          ↓                                   │
+│  🔧 Back-end & APIs                          │
+│          ↓                                   │
+│  🗄️ Banco de Dados                           │
+│          ↓                                   │
+│  🌐 Desenvolvimento Web                      │
+│          ↓                                   │
+│  🔌 IoT & ESP32                              │
+│          ↓                                   │
+│  🚀 Projetos Práticos                        │
+│          ↓                                   │
+│  💼 Experiência Profissional                 │
+│                                              │
+└──────────────────────────────────────────────┘
