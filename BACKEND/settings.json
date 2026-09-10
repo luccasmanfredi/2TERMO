@@ -1,0 +1,322 @@
+{
+    // ============================================================
+    // 🌌 SYNTHWAVE '84 — BLUE NEON GAMER
+    // ============================================================
+
+    "workbench.colorTheme": "SynthWave '84",
+
+    // ============================================================
+    // 🔵 INTERFACE — BLUE NEON
+    // ============================================================
+
+    "workbench.colorCustomizations": {
+        "[SynthWave '84]": {
+            "activityBar.background": "#020812",
+            "activityBar.foreground": "#00E5FF",
+            "activityBar.inactiveForeground": "#167D99",
+            "activityBarBadge.background": "#00E5FF",
+            "activityBarBadge.foreground": "#001018",
+
+            "sideBar.background": "#030A14",
+            "sideBar.foreground": "#8DEBFF",
+            "sideBar.border": "#006B8F",
+
+            "sideBarSectionHeader.background": "#061421",
+            "sideBarSectionHeader.foreground": "#00E5FF",
+
+            "panel.background": "#020914",
+            "panel.border": "#006B8F",
+            "panelTitle.activeForeground": "#00E5FF",
+            "panelTitle.inactiveForeground": "#36798A",
+
+            "statusBar.background": "#02111D",
+            "statusBar.foreground": "#00E5FF",
+            "statusBar.border": "#00B8D4",
+
+            "titleBar.activeBackground": "#020A13",
+            "titleBar.activeForeground": "#00E5FF",
+            "titleBar.inactiveBackground": "#02070D",
+            "titleBar.inactiveForeground": "#37798A",
+
+            "editorGroupHeader.tabsBackground": "#020914",
+            "tab.activeBackground": "#061827",
+            "tab.activeForeground": "#00E5FF",
+            "tab.inactiveBackground": "#020A12",
+            "tab.inactiveForeground": "#397B8A",
+            "tab.activeBorder": "#00E5FF",
+            "tab.activeBorderTop": "#00E5FF",
+
+            "editor.background": "#02060D",
+            "editor.foreground": "#D8F8FF",
+            "editorLineNumber.foreground": "#15566B",
+            "editorLineNumber.activeForeground": "#00E5FF",
+
+            "editorCursor.foreground": "#00FFFF",
+            "editor.selectionBackground": "#006B8F66",
+            "editor.selectionHighlightBackground": "#00B8D433",
+            "editor.wordHighlightBackground": "#00E5FF22",
+
+            "editorIndentGuide.background1": "#063346",
+            "editorIndentGuide.activeBackground1": "#00B8D4",
+
+            "editorBracketMatch.background": "#00E5FF22",
+            "editorBracketMatch.border": "#00E5FF",
+
+            "focusBorder": "#00E5FF",
+            "widget.border": "#008EAB",
+            "dropdown.background": "#03111C",
+            "dropdown.foreground": "#00E5FF",
+            "input.background": "#020C16",
+            "input.foreground": "#B9F6FF",
+            "input.border": "#007A99"
+        }
+    },
+
+    // ============================================================
+    // ✨ CÓDIGO — BLUE NEON SYNTAX
+    // ============================================================
+
+    "editor.tokenColorCustomizations": {
+        "[SynthWave '84]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "comment",
+                        "punctuation.definition.comment"
+                    ],
+                    "settings": {
+                        "foreground": "#398CA3",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword",
+                        "storage",
+                        "storage.type",
+                        "storage.modifier"
+                    ],
+                    "settings": {
+                        "foreground": "#00E5FF"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.function",
+                        "support.function",
+                        "meta.function-call"
+                    ],
+                    "settings": {
+                        "foreground": "#00BFFF"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable",
+                        "variable.other",
+                        "variable.parameter"
+                    ],
+                    "settings": {
+                        "foreground": "#66D9FF"
+                    }
+                },
+                {
+                    "scope": [
+                        "string",
+                        "string.quoted"
+                    ],
+                    "settings": {
+                        "foreground": "#00FFFF"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.numeric",
+                        "constant.language"
+                    ],
+                    "settings": {
+                        "foreground": "#29B6F6"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.type",
+                        "entity.name.class",
+                        "support.type"
+                    ],
+                    "settings": {
+                        "foreground": "#40C4FF"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.tag"
+                    ],
+                    "settings": {
+                        "foreground": "#00E5FF"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.other.attribute-name"
+                    ],
+                    "settings": {
+                        "foreground": "#66D9FF"
+                    }
+                },
+                {
+                    "scope": [
+                        "support.constant",
+                        "support.variable"
+                    ],
+                    "settings": {
+                        "foreground": "#00B8D4"
+                    }
+                }
+            ]
+        }
+    },
+
+    // ============================================================
+    // 🔠 EDITOR
+    // ============================================================
+
+    "editor.fontSize": 20,
+    "editor.lineHeight": 32,
+    "editor.fontWeight": "500",
+    "editor.cursorWidth": 3,
+    "editor.cursorBlinking": "smooth",
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.maxColumn": 100,
+    "editor.renderWhitespace": "selection",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.stickyScroll.enabled": true,
+
+    // ============================================================
+    // 📂 EXPLORER
+    // ============================================================
+
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    // ============================================================
+    // 🎨 ÍCONES
+    // ============================================================
+
+    "workbench.iconTheme": "material-icon-theme",
+
+    // ============================================================
+    // ⚡ CURSOR / EDIÇÃO
+    // ============================================================
+
+    "editor.multiCursorModifier": "alt",
+    "editor.mouseWheelZoom": true,
+    "editor.copyWithSyntaxHighlighting": true,
+    "editor.formatOnSave": true,
+
+    // ============================================================
+    // 🧠 INTELLISENSE
+    // ============================================================
+
+    "editor.suggestSelection": "first",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+
+    // ============================================================
+    // 💻 TERMINAL — BLUE NEON
+    // ============================================================
+
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.lineHeight": 1.3,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.gpuAcceleration": "on",
+
+    "terminal.integrated.minimumContrastRatio": 1,
+
+    // ============================================================
+    // 🔥 POWER MODE
+    // ============================================================
+
+    "powermode.enabled": true,
+    "powermode.enableShake": true,
+    "powermode.shakeIntensity": 3,
+    "powermode.shakeDuration": 50,
+    "powermode.combo.counterEnabled": true,
+    "powermode.combo.counterSize": 2,
+    "powermode.combo.counterColor": "#00E5FF",
+    "powermode.explosionSize": 5,
+    "powermode.explosionFrequency": 1,
+    "powermode.explosionDuration": 300,
+
+    // ============================================================
+    // ❌ ERROR LENS
+    // ============================================================
+
+    "errorLens.enabled": true,
+    "errorLens.delay": 300,
+    "errorLens.fontSize": "0.9em",
+    "errorLens.fontWeight": "bold",
+    "errorLens.messageBackgroundMode": "line",
+
+    // ============================================================
+    // 🐍 PYTHON
+    // ============================================================
+
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+
+    // ============================================================
+    // 🌐 HTML / CSS / JS
+    // ============================================================
+
+    "html.autoClosingTags": true,
+    "html.autoCreateQuotes": true,
+    "css.validate": true,
+    "javascript.suggest.autoImports": true,
+
+    // ============================================================
+    // 💾 FORMATAÇÃO
+    // ============================================================
+
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    // ============================================================
+    // 🔍 SEARCH
+    // ============================================================
+
+    "search.smartCase": true,
+    "search.showLineNumbers": true,
+
+    // ============================================================
+    // 🖥️ WINDOW
+    // ============================================================
+
+    "window.titleBarStyle": "custom",
+    "window.commandCenter": true,
+    "window.autoDetectColorScheme": true,
+
+    // ============================================================
+    // 🚀 PERFORMANCE
+    // ============================================================
+
+    "workbench.list.smoothScrolling": true,
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "always",
+
+    // ============================================================
+    // 🧹 TELEMETRY
+    // ============================================================
+
+    "telemetry.telemetryLevel": "off"
+}

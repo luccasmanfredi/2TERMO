@@ -1,0 +1,22 @@
+# Dependências do Node (MUITO IMPORTANTE: evita subir a pasta gigante)
+**/node_modules/
+node_modules/
+
+# Arquivos compactados e arquivos temporários de download
+*.zip
+*.rar
+*.7z
+*.crdownload
+
+# Configurações do editor (VS Code)
+.vscode/
+
+# Logs do sistema e de execução
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos invisíveis de sistema operacional
+.DS_Store
+Thumbs.db
