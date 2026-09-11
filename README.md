@@ -1,12 +1,12 @@
 <div align="center">
 
-# 👋 Olá, eu sou **Luccas Manfredi**
+# ⚡ **LUCCAS MANFREDI** ⚡
 
-### 💻 Desenvolvedor de Software em Formação
+### 💻 Desenvolvedor Backend em Formação
 
-🎓 Estudante de Desenvolvimento de Software no **SENAI**
-🇧🇷 Brasil
-🚀 Em busca de oportunidades para aprender, contribuir e crescer profissionalmente
+**Estudante SENAI • Desenvolvimento de Sistemas**
+
+</div>
 
 <br>
 
