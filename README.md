@@ -1,10 +1,6 @@
-<div align="center">
-
-# ⚡ **LUCCAS MANFREDI** ⚡
-
-### 💻 Desenvolvedor Backend em Formação
-
-**Estudante SENAI • Desenvolvimento de Sistemas**
+<p align="center">
+  <img src="assets/2termo-banner.png" alt="2TERMO - Luccas Manfredi">
+</p>
 
 </div>
 
