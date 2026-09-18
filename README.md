@@ -1,12 +1,8 @@
-<div align="center">
+<p align="center">
+  <img src="assets/2termo-banner.png" alt="2TERMO - Luccas Manfredi">
+</p>
 
-# 👋 Olá, eu sou **Luccas Manfredi**
-
-### 💻 Desenvolvedor de Software em Formação
-
-🎓 Estudante de Desenvolvimento de Software no **SENAI**
-🇧🇷 Brasil
-🚀 Em busca de oportunidades para aprender, contribuir e crescer profissionalmente
+</div>
 
 <br>
 
