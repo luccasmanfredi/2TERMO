@@ -1,0 +1,89 @@
+.equipe {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.equipe-2 {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0
+}
+
+.equipe-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.equipe-4 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.equipe-5 {
+    justify-content: flex-start;
+}
+
+.equipe-6 {
+    justify-content: center;
+}
+
+.equipe-7 {
+    justify-content: flex-end;
+}
+
+.entre {
+    justify-content: space-between;
+}
+
+.uniforme {
+    justify-content: space-evenly;
+}
+
+.alinhamento-itens {
+    display: flex;
+    height: 120px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.alinhamento-itens li {
+    width: 70px;
+
+}
+
+.pequeno {
+    height: 30px;
+}
+
+.medio {
+    height: 60px;
+}
+
+.grande {
+    height: 90px;
+}
+
+.vertical-inicio {
+    align-items: flex-start;
+}
+
+.vertical-centro {
+    align-items: center;
+}
+
+.vertical-fim {
+    align-items: flex-end;
+}
