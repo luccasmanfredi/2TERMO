@@ -1,0 +1,20 @@
+[
+  {
+    "codigo": 1,
+    "descricao": "Aço SAE 1020",
+    "quantidade": 50,
+    "valorUnitario": 32.50
+  },
+  {
+    "codigo": 2,
+    "descricao": "Alumínio",
+    "quantidade": 30,
+    "valorUnitario": 20.00
+  },
+  {
+    "codigo": 3,
+    "descricao": "Cobre",
+    "quantidade": 20,
+    "valorUnitario": 40.00
+  }
+]

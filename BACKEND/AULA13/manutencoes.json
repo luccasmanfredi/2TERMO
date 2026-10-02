@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "maquina": "Torno CNC",
+    "setor": "Usinagem",
+    "horasUso": 900,
+    "limiteManutencao": 1000,
+    "manutencaoRealizada": false
+  },
+  {
+    "id": 2,
+    "maquina": "Prensa",
+    "setor": "Estamparia",
+    "horasUso": 1200,
+    "limiteManutencao": 1000,
+    "manutencaoRealizada": false
+  },
+  {
+    "id": 3,
+    "maquina": "Furadeira",
+    "setor": "Montagem",
+    "horasUso": 500,
+    "limiteManutencao": 1000,
+    "manutencaoRealizada": false
+  }
+]

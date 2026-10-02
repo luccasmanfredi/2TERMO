@@ -1,0 +1,20 @@
+[
+  {
+    "codigo": 101,
+    "nome": "Torno CNC",
+    "setor": "Usinagem",
+    "operacional": true
+  },
+  {
+    "codigo": 102,
+    "nome": "Impressora",
+    "setor": "Financeiro",
+    "operacional": true
+  },
+  {
+    "codigo": 103,
+    "nome": "Projetor",
+    "setor": "Sala de reunioes",
+    "operacional": false
+  }
+]
