@@ -20,3 +20,8 @@ yarn-error.log*
 # Arquivos invisíveis de sistema operacional
 .DS_Store
 Thumbs.db
+
+# Modelos conceituais locais
+/CONCEITUAL_1 Veículos.brM
+/MODELO_DESAFIO_CONCEITUAL.brM
+/MODELO_RELACIONAMENTOS-CONCEITUAL.brM
