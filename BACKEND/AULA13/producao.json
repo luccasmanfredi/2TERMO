@@ -1,0 +1,17 @@
+[
+  {
+    "maquina": "Torno CNC",
+    "meta": 500,
+    "produzido": 475
+  },
+  {
+    "maquina": "Prensa",
+    "meta": 400,
+    "produzido": 420
+  },
+  {
+    "maquina": "Furadeira",
+    "meta": 300,
+    "produzido": 200
+  }
+]
