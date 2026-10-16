@@ -96,4 +96,84 @@ HAVING COUNT(*) >= 2;
 SELECT SUM(valor_total) AS FATURAMENTO_TOTAL
 FROM pedido
 WHERE status_pedido = 'FINALIZADO';
-    
+
+-- PARTE D - RELACIONAMENTOS
+
+-- 16. Liste cada pedido exibindo id, data, nome do cliente, status e valor total.
+
+SELECT p.id_pedido, p.data_pedido, c.nome AS nome_cliente, p.status_pedido, p.valor_total
+FROM pedido p
+JOIN cliente c ON p.id_cliente = c.id_cliente;
+
+-- 17. Liste cada produto acompanhado do nome de sua categoria.
+
+SELECT pr.nome AS nome_produto, c.nome AS nome_categoria
+FROM produto pr
+JOIN categoria c ON pr.id_categoria = c.id_categoria;
+
+-- 18. Gere um relatório dos itens vendidos: pedido, produto, quantidade,
+--     preço unitário e subtotal.
+
+SELECT P.ID_PEDIDO, PR.NOME AS PRODUTO, IP.QUANTIDADE, IP.PRECO_UNITARIO, IP.QUANTIDADE * IP.PRECO_UNITARIO AS SUBTOTAL
+FROM PEDIDO AS P
+INNER JOIN ITEM_PEDIDO AS IP
+ON IP.ID_PEDIDO = P.ID_PEDIDO
+INNER JOIN PRODUTO AS PR
+ON PR.ID_PRODUTO = IP.ID_PRODUTO
+ORDER BY P.ID_PEDIDO;
+
+-- 19. Mostre todos os clientes, inclusive aqueles que nunca fizeram pedidos.
+
+SELECT C.NOME, P.ID_PEDIDO, P.DATA_PEDIDO
+FROM CLIENTE AS C
+LEFT JOIN PEDIDO AS P
+ON P.ID_CLIENTE = C.ID_CLIENTE
+ORDER BY C.NOME;
+
+-- 20. Liste apenas os clientes que nunca fizeram pedidos.
+
+SELECT C.ID_CLIENTE, C.NOME
+FROM CLIENTE AS C
+LEFT JOIN PEDIDO AS P
+ON P.ID_CLIENTE = C.ID_CLIENTE
+WHERE P.ID_PEDIDO IS NULL;
+
+-- PARTE E - DESAFIO GERENCIAL
+
+-- 21. Informe quantos pedidos FINALIZADOS cada cliente realizou e quanto
+--     cada cliente gastou. Ordene do maior gasto para o menor.
+
+SELECT C.NOME AS CLIENTE, COUNT(P.ID_PEDIDO) AS QTDE_PEDIDOS, SUM(P.VALOR_TOTAL) AS TOTAL_GASTO
+FROM CLIENTE AS C
+INNER JOIN PEDIDO AS P
+ON P.ID_CLIENTE = C.ID_CLIENTE
+WHERE P.STATUS_PEDIDO = 'FINALIZADO'
+GROUP BY C.ID_CLIENTE, C.NOME
+ORDER BY TOTAL_GASTO DESC;
+
+-- 22. Mostre a quantidade de produtos e o preço médio de cada categoria.
+
+SELECT CA.NOME AS CATEGORIA, COUNT(PR.ID_PRODUTO) AS QTDE_PRODUTOS, (AVG(PR.PRECO), 2) AS PRECO_MEDIO
+FROM CATEGORIA AS CA
+LEFT JOIN PRODUTO AS PR
+ON PR.ID_CATEGORIA = CA.ID_CATEGORIA
+GROUP BY CA.ID_CATEGORIA, CA.NOME;
+
+-- 23. Descubra quais produtos possuem preço superior ao preço médio geral.
+
+SELECT NOME, PRECO
+FROM PRODUTO
+WHERE PRECO > (SELECT AVG(PRECO) FROM PRODUTO)
+ORDER BY PRECO DESC;
+
+-- 24. Classifique os produtos como Econômico, Intermediário ou Premium.
+--     Defina e informe suas faixas de preço.
+
+SELECT NOME, PRECO,
+CASE
+WHEN PRECO < 8.00 THEN 'Econômico'
+WHEN PRECO <= 15.00 THEN 'Intermediário'
+ELSE 'Premium'
+END AS CLASSIFICACAO
+FROM PRODUTO
+ORDER BY PRECO;
