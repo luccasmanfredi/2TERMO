@@ -69,6 +69,15 @@ footer nav a {
     font-size: 12px;
     text-decoration: none;
     text-transform: uppercase;
+    transition: color 0.2s, transform 0.2s, border-color 0.2s, background-color 0.2s;
+}
+
+.Titulo nav a:hover,
+.Titulo nav a:focus-visible,
+footer nav a:hover,
+footer nav a:focus-visible {
+    color: var(--ciano);
+    transform: translateY(-2px);
 }
 
 .Titulo nav li:last-child a {
@@ -76,6 +85,13 @@ footer nav a {
     border: 1px solid var(--rosa);
     border-radius: 20px;
     color: var(--texto);
+}
+
+.Titulo nav li:last-child a:hover,
+.Titulo nav li:last-child a:focus-visible {
+    border-color: var(--rosa);
+    background: rgb(255 217 74 / 10%);
+    color: var(--rosa);
 }
 
 .inicioSite {
@@ -148,12 +164,23 @@ footer nav a {
     border: 1px solid #292940;
     border-radius: 18px;
     background: var(--cartao);
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.imagem1:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(32, 181, 210, 0.3);
 }
 
 .imagem1 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.4s;
+}
+
+.imagem1:hover img {
+    transform: scale(1.06);
 }
 
 .classicos,
@@ -424,6 +451,33 @@ footer nav {
 footer nav a {
     color: var(--ciano);
     font-size: 10px;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.social-link svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.social-link:first-child svg {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+}
+
+.social-link:first-child .instagram-dot {
+    fill: currentColor;
+    stroke: none;
+}
+
+.social-link:not(:first-child) svg {
+    fill: currentColor;
 }
 
 .creditos-footer {
