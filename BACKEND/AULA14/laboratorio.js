@@ -33,7 +33,7 @@ const maquinas = JSON.parse(texto);
 maquinas.forEach((maquina, indice) => {
 console.log(`${indice + 1}. ${maquina.nome} - ${maquina.setor} - ${maquina.status}`);
 });
-
+a
 // Ex 5 //
 
 // const fs = require("fs");
