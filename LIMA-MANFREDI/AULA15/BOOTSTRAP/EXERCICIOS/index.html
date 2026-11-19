@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Bootstrap</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX"
+        crossorigin="anonymous">
+</head>
+<body>
+    <header class="container py-4">
+        <h1>Exercícios de Bootstrap</h1>
+    </header>
+
+    <main>
+        <!-- EXERCÍCIO 01 - CORES -->
+        <section class="container mb-5">
+            <h2 id="exercicio-1">Exercício 01 - Cores</h2>
+            <h3 class="text-primary">Título azul</h3>
+            <p class="text-secondary">Este é um parágrafo secundário.</p>
+                
+            <article class="bg-dark text-white p-3 rounded">
+                Seção escura com texto branco.
+            </article>
+        </section>
+
+        <!-- EXERCÍCIO 02 - ESPAÇAMENTOS -->
+        <section class="container mb-5">
+            <h2 id="exercicio-2">Exercício 02 - Espaçamentos</h2>
+            <h3 class="h5">Padding</h3>
+            <article class="mb-2 p-1">
+                 padding pequeno
+            </article>
+            <article class="mb-2 p-3">
+                padding médio
+            </article>
+            <article class="mb-3 p-5">
+                padding grande
+            </article>
+
+            <h3 class="h5">Margin</h3>
+            <article class="m-1 bg-primary p-2 text-white">
+                margin pequeno
+            </article>
+            <article class="m-3 bg-primary p-2 text-white">
+                margin médio
+            </article>
+            <article class="m-5 bg-primary p-2 text-white">
+                margin grande
+            </article>
+        </section>
+
+        <!-- EXERCÍCIO 03 - BOTÕES -->
+        <section class="container mb-5" >
+            <h2>Exercício 03 - Botões</h2>
+            <article class="d-flex flex-wrap gap-2 align-items-center">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-dark">Dark</button>
+                <button type="button" class="btn btn-outline-primary">Outline primary</button>
+                <button type="button" class="btn btn-primary btn-lg">Botão grande</button>
+                <button type="button" class="btn btn-primary btn-sm">Botão pequeno</button>
+            </article>
+        </section>
+
+        <!-- EXERCÍCIO 04 - CONTAINERS -->
+        <section class="mb-5">
+            <h2 class="container mb-3">Exercício 04 - Containers</h2>
+            <article class="container bg-success text-white p-3 mb-3">
+                <h3 class="h5">.container</h3>
+                <p>Conteúdo centralizado com largura máxima responsiva.</p>
+            </article>
+            <article class="container-fluid bg-success text-white p-3">
+                <h3 class="h5">.container-fluid</h3>
+                <p>Conteúdo ocupa toda a largura disponível.</p>
+            </article>
+            <p class="container mt-3">
+                Diferença: <code>.container</code> tem largura máxima responsiva e fica centralizado;
+                <code>.container-fluid</code> ocupa toda a largura disponível.
+            </p>
+        </section>
+
+        <!-- EXERCÍCIO 05 - GRID RESPONSIVO -->
+        <section class="container mb-5" aria-labelledby="exercicio-5">
+            <h2 id="exercicio-5">Exercício 05 - Grid responsivo</h2>
+            <p>Uma coluna no celular, duas no tablet e quatro no desktop.</p>
+            <section class="row g-3">
+                <article class="col-12 col-md-6 col-lg-3">
+                    <article class="p-3">
+                        Conteúdo 1
+                    </article>
+                </article>
+
+                <article class="col-12 col-md-6 col-lg-3">
+                    <article class="p-3">
+                        Conteúdo 2
+                    </article>
+                </article>
+
+                <article class="col-12 col-md-6 col-lg-3">
+                    <article class="p-3">
+                        Conteúdo 3
+                    </article>
+                </article>
+
+                <article class="col-12 col-md-6 col-lg-3">
+                    <article class="p-3">
+                        Conteúdo 4
+                    </article>
+                </article>
+            </section>
+        </section>
+
+    </main>
+</body>
+</html>
